@@ -1,6 +1,11 @@
 import Head from 'next/head'
+import Navbar from '@/components/navbar';
+import useSocialMedia from '@/lib/useSocialMedia';
 
 export default function Home() {
+
+  const { allSocialMedia } = useSocialMedia();
+
   return (
     <>
       <Head>
@@ -9,7 +14,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-black text-white h-screen flex justify-center items-center">
+      <main className="bg-black text-white h-screen flex justify-center items-center relative">
+        <Navbar socialNetworks={allSocialMedia} />
         E2E Site
       </main>
     </>
