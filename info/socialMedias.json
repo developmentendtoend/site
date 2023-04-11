@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "data": [
+    {
+      "src": "facebook.svg",
+      "alt": "facebook",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "src": "instagram.svg",
+      "alt": "instagram",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "src": "tiktok.svg",
+      "alt": "tiktok",
+      "url": "https://www.tiktok.com/es/"
+    },
+    {
+      "src": "twitter.svg",
+      "alt": "twitter",
+      "url": "https://twitter.com/"
+    }
+  ]
+}
